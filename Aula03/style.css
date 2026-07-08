@@ -1,0 +1,36 @@
+h1::before{
+    content:"💂​";
+}
+
+p::after{
+    content:"👨‍🏭​";
+}
+
+.bio::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+p::first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::selection{
+    background-color: pink;
+    color: white;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: lightgray;
+}
+
+li::marker{
+    color: lightgreen;
+}
+
+li::marker{
+    font-size: 35px;
+}
+
